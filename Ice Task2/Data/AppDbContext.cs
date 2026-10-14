@@ -17,7 +17,7 @@ namespace Ice_Task2.Data
         public DbSet<Weather> Weathers => Set<Weather>();
         public DbSet<Enrolment> Enrolments => Set<Enrolment>();
         public DbSet<Participant> Participants => Set<Participant>();
-        public DbSet<Feedback> Feedbacks => Set<Feedback>();
+        public DbSet<Feedback> Feedbacks => Set <Feedback>();
         public DbSet<Result> Results => Set<Result>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
