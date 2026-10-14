@@ -7,7 +7,6 @@ namespace Ice_Task2.Services
     public class UserService
     {
         private readonly AppDbContext _db;
-
         public UserService(AppDbContext db)
         {
             _db = db;
@@ -18,8 +17,7 @@ namespace Ice_Task2.Services
 
         public async Task<User?> GetUserByIdAsync(int id) =>
             await _db.Users.FirstOrDefaultAsync(u => u.UserId == id);
-
-        public async Task<User?> GetUserByEmailAsync(string email) =>
+        public async Task<User?> GetUserByEmailAsync (string email) =>
             await _db.Users.FirstOrDefaultAsync(u =>
                 u.Email.ToLower() == email.ToLower());
 
