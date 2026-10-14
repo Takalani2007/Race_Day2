@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseInMemoryDatabase("IceTask2Db"));
+    options.UseInMemoryDatabase("Race_Events2Db"));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
