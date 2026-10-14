@@ -1,6 +1,6 @@
-﻿using Ice_Task2.Controllers;
-using Ice_Task2.Model;
-using Ice_Task2.Tests.TestHelpers;
+﻿using Race_Events2.Controllers;
+using Race_Events2.Model;
+using Race_Events2.Tests.TestHelpers;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
