@@ -14,7 +14,7 @@ namespace Ice_Task2.Controllers
         {
             _userService = userService;
         }
-
+  
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] User user)
         {
