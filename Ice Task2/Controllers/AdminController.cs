@@ -8,7 +8,7 @@ namespace Ice_Task2.Controllers
     [ApiController]
     [Route("api/admin/events")]
     public class AdminController : ControllerBase
-    {
+    { 
         private readonly AppDbContext _db;
 
         public AdminController(AppDbContext db)
