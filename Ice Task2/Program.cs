@@ -1,5 +1,5 @@
-﻿using Ice_Task2.Data;
-using Ice_Task2.Services;
+﻿using Race_Events2.Data;
+using Race_Events2.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
