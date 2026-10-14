@@ -1,13 +1,13 @@
-﻿using Ice_Task2.Controllers;
-using Ice_Task2.Model;
-using Ice_Task2.Tests.TestHelpers;
+﻿using Race_Events2.Controllers;
+using Race_Events2.Model;
+using Race_Events2.Tests.TestHelpers;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Ice_Task2.Tests
+namespace Race_Events2.Tests
 {
     public class EnrolmentsControllerTest
     {
