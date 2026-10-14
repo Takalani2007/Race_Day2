@@ -6,13 +6,13 @@ namespace Ice_Task2.Model
     public class Result
     {
         [Key]
-        public int ResultId { get; set; }
+        public int ResultId  { get; set; }
 
         [Required]
         public int EventId { get; set; }
 
         [Required]
-        public int ParticipantId { get; set; }
+        public int ParticipantId  { get; set; }
 
         [MaxLength(100)]
         public string Outcome { get; set; } = string.Empty;
